@@ -1,0 +1,94 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -50px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 40px 20px 20px;
+    overflow: auto;
+}
+
+.footer {
+    height: 70px;
+    background-color: #000;
+    color: #FFF;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.navbar-default {
+    background-color: #014421;
+    border-color: #E7E7E7;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffd200;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #ffd200;
+}
+
+.nav.navbar-nav.navbar-right > .active > a,
+.nav.navbar-nav.navbar-right  > .active > a:hover,
+.nav.navbar-nav.navbar-right  > .active > a:focus {
+    color: #ffd200;
+    background: #008000;
+}                               
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.panelhead {
+    text-align: center;
+}
+
+.forgotpassword {
+    text-align: center;
+}
+
+.panel-default {
+    box-shadow: 5px 5px;
+}
+
+p.welcome {
+    padding-top: 15px;
+    color: #FFFF;
+}
+
+.alertmsg {
+    padding: 60px 10px 100px 10px;
+}
+
+.usercheck {
+    text-align: center;
+}
+
+.calendartext {
+    font-style: italic;
+    color: green;
+}
